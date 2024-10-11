@@ -15,7 +15,7 @@ quality_labels = ['q=95', 'q=80', 'q=60', 'q=40']
 IMG_SIZE = 128  # Image size used for training
 
 # Load the model
-model_path = crop_quality_model_25.h5
+model_path = 'crop_quality_model_25.h5'
 model = tf.keras.models.load_model(model_path)
 
 # Function to preprocess the input image
